@@ -1,0 +1,7 @@
+{
+  "name": "vendor/adminer",
+  "description": "Adminer on Vercel PHP Runtime",
+  "require": {
+    "php": "^8.0"
+  }
+}
