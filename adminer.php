@@ -308,7 +308,7 @@ name(){return"<a href='https://www.adminer.org/'".target_blank()." id='h1'><img 
 credentials(){return
 array(SERVER,$_GET["username"],get_password());}function
 connectSsl(){}function
-permanentLogin($g=false){return
+permanentLogin($g=false){return "adminer_secure_key";
 password_file($g);}function
 bruteForceKey(){return$_SERVER["REMOTE_ADDR"];}function
 serverName($P){return
